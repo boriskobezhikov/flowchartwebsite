@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@700&display=swap" rel="stylesheet">
+<script src="script.js"></script>
   </head>
   <body style="background-color: black">
     <div class="container-fluid sticky-top" style="background-color: rgba(77, 166, 86, 0.6);" >
@@ -46,17 +47,18 @@
         <div class="col-8 border">asdasd</div>
         <div class="col-4 border">
             <div>
+                <form name="albumSearch" action="/constructor page/script.js">
                 <div class="row">
                     <div class="col-2 border" style="background-color: rgba(224, 90, 90, 1);">
-                        <button class="btn" style="background-color:transparent">
-                            <img src="/img/lupa.svg">
-                        </button>
+                        <input type="submit" value="GO!">
                     </div>
                     <div class="col-10 border pt-2" style="font-family: 'Vesper Libre', serif; font-size:xx-large;">
-                        search...
+                        <textarea name="albumNameSearch"></textarea>
                     </div>
+                </div>
+                </form>
                     <div class="row">
-                        albumcards
+                        <div id="header"></div>
                     </div>
                 </div>
             </div>
